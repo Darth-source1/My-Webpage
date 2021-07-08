@@ -1,3 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
+    margin: 0 0 0 0;
+    background-color: black;
+}
+
+#header {
+    margin: 0% 0% 0% 6%;
+    padding: 0% 0% 0% 0%;
+    width: 88%;
+}
+
+#CV {
+    width: 88%;
+    background-color: white;
+    border: 1px solid white;
+    margin: 0% 0% 0% 6%;
+    position: absolute;
+    border-radius: 0.3rem;
+    height: 600px;
+
     
+}
+
+#splash {
+    object-fit;
+}
+
+#left {
+    border: 1px solid yellow;
+    display: inline-block;
+    margin: 0% 0% 0% 2%;
+    height: 90%;
+    width: 45%;
+    padding: 2% 2% 2% 2%;
+    float: left;
+    
+}
+
+#avatar {
+   border: 1px solid black;
+   margin: auto;
+   
+
+}
+
+
+
+
+/*zone for responsive in phone*/
+.smartphone_image {
+    
+    padding: 0px 0px 0px 0px;
 }
