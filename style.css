@@ -127,3 +127,22 @@ nav {
     border: 1px solid white;
     
 }
+#canvas {
+    border: 1px solid black;
+    width: 80%;
+    height: 250px;
+    margin: 2% 10% 2% 10%;
+}
+form {
+    text-align: center;
+    background-color: orange;
+    width: 30%;
+    heigth: 30%;
+    margin: auto;
+    border: 1px solid white;
+    
+}
+
+form p{
+    display: inline-block;
+}

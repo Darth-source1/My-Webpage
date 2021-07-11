@@ -4,8 +4,8 @@
 
 
 <link rel="stylesheet" href="style.css">
-<script src="script.js">
-</script>
+<script src="script.js"></script>
+<script src="script/canvas.js"></script>
 
 </head>
 
@@ -29,7 +29,7 @@
  <li> <a href="#contact">contact</a></li>
 </ul>
 
- </nav>
+</nav>
 
  <section id="CV">
 
@@ -52,7 +52,7 @@
 
 
 <article id="right">
-<canvas id="chart">
+<canvas id="canvas" width="300px" height="200">
 your browser dont support canvas
 
 
@@ -69,15 +69,25 @@ your browser dont support canvas
 </section>
 
 <section id="contact">
-<form>
+<form name="form" id="form" method="get">
 
-<p>hi test text</p>
+<table>
+<tr><td><p>Name: &nbsp</p></td><td><input type="text"  maxlength="12" name="user" id="user" required></td></tr>
+<tr><td><p>Email: &nbsp</p></td><td> <input type="email" name="email" id="email" required></td></tr>
+<tr><td><p> Messenge: &nbsp</p> </td><td><input type="text" maxlength="250" name="messenge"  id="messenge"></td></tr>
+
+
+</table>
+<input type="submit">
+</form>
+
+
+
+</table>
+
 
 </form>
 
-<article>
-<p>test</p>
-</article>
 
 </section>
 
