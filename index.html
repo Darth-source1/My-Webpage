@@ -3,7 +3,8 @@
 <head>
 
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" media="screen and (min-device-width: 640px)" href="style.css"/>
+<link rel="stylesheet" media="screen and (max-device-width: 640px)" href="mobile_style.css"/>
 <script src="script.js"></script>
 <script src="script/canvas.js"></script>
 
@@ -14,8 +15,9 @@
 <section id="header">
 <figure>
     <picture id="splash">
-        <source name="smartphone_image" media="(max-width: 600px)" srcset="image/arnold-francisca-unsplash2.webp" width="100%">
-        <img src="image/arnold-francisca-unsplash2.webp" width="100%">
+        <source name="desktop_image" media="(min-device-width: 640px)" srcset="image/arnold-francisca-unsplash2.webp" width="100%">
+        <source name="smartphone_image" media="(max-device-width: 640px)" srcset="image/joshua-reddekopp-unsplash.webp" width="100%" heigth="60%">
+        <img src="joshua-reddekopp-unsplash.webp" width="100%">
 </picture>
 
 </figure>
